@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="row">
+            <div class="col-3 header-height"> </div>
+            <div class="col-9 header-height"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 menu-height" id="menu">
+            <ul id="mainul">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a> </li>
+                <li><a href="">Service</a> </li>
+                <li><a href="">Contact us</a> </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6 content-height"></div>
+        <div class="col-6 content-height">
+            <form>
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td>
+                            <input type="text" id="firstName">
+                            <span id="firstNameError"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td>
+                            <input type="text" id="lastName">
+                            <span id="lastNameError"></span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Email address</td>
+                        <td>
+                            <input type="email" id="emailAddress">
+                            <span id="emailAddressError"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>
+                            <input type="password" id="password">
+                            <input type="checkbox" id="showHide"> Show password
+                            <span id="passwordError"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password</td>
+                        <td>
+                            <input type="password" id="confirmPassword">
+                            <input type="checkbox" id="showHide"> Show password
+                            <span id="confirmPasswordError"></span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Gender info</td>
+                        <td>
+                            <input type="radio" name="gender" value="male">Male
+                            <input type="radio" name="gender" value="Female">Female
+                            <span id="genderError"></span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>District Name</td>
+                        <td>
+                            <select id="district">
+                                <option>-------select option------</option>
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Mymensingh">Mymensingh</option>
+                                <option value="khulna">Khulna</option>
+                                <option value="Barishal">Barishal</option>
+                                <option value="Chittagong">Chittagong</option>
+                            </select>
+                            <span id="DistrictNameError"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" id="btn" name="btn" value="Submit">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
+    <div class="col-12 footer-height"></div>
+
+</div>
+
+
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
