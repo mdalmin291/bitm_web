@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+</head>
+<body>
+
+	<table>
+		<tr>
+			<th>First Name</th>
+			<td><input type="text" id="first_name"></td>
+		</tr>
+
+		<tr>
+		    <th>Last Name</th>
+		<!--    onclick event-->
+		    <!--<td><input type="text" onclick="makeFullname()" id="last_name"></td>-->
+		    <td><input type="text"  id="last_name"></td>
+		</tr>
+		<tr>
+			<th>Full Name</th>
+			<td><input type="text" id="full_name"></td>
+		</tr>
+
+		<tr>
+			<th></th>
+			<td><input type="button"  id="button" value="submit"></td>
+			    <!--onclick event   1st way-->
+		<!--    <td><input type="button" onclick="makeFullname()" id="button" value="submit"></td>-->
+		</tr>
+
+	</table>
+
+
+
+	<script>
+       // onclick event-- 2nd way
+
+		var btnElement = document.getElementById('button');
+		btnElement.onclick = function() {
+			var firstName = document.getElementById('first_name').value;
+			var lastName  = document.getElementById('last_name').value;
+			makeFullname(firstName, lastName);
+		}
+		
+
+
+		function makeFullname(firstName, lastName) {
+			var fullName  = firstName+' '+lastName;
+			document.getElementById('full_name').value = fullName;
+		}
+
+		
+	</script>
+
+</body>
+</html>
