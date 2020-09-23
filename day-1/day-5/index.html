@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<td> First Name:</td>
+			<td> <input type="text" list="name" name="first_name" id="firstName" maxlength="10"></td>
+		</tr>
+	    	<td>Last Name: </td>
+	    	<td> <input type="text" name="last_name" id="lastName" value="asdbfvhbsdbvjsbjvsjvjb" readonly="" size="50"></td>
+		</tr>
+		<tr>
+			<td>Email Address: </td>
+			<td> <input type="Email" name="email_address" id="emailAddress"></td>
+		</tr>
+		<tr>
+			<td>Phone Number:</td>
+			<td><input type="Number" name="phone_number" id="phoneNumber" min="0" max="10"></td>
+		</tr>
+		<tr>
+			<td>Gender Info:</td>
+			<td>
+				<input type="radio" checked name="gender" value="male">male
+				<input type="radio" name="gender" value="Female">Female
+			</td>
+		</tr>
+		<tr>
+			<td>Address :</td>
+			<td><textarea name="Address" id="address" rows="8" cols="30"></textarea></td>
+		</tr>
+		<tr>
+			<td>District Name</td>
+			<td>
+				<select name="disrict" id="district">
+					<option>----Select your District Name-----</option>
+					<optgroup label="Dhaka Division">
+					<option value="">Dhaka</option>
+					<option value="">Barishal</option>
+					<option value="">Khulna</option>
+					<option value="">Cox's Bazar</option>
+					<option value="">Cumilla</option>
+					</optgroup>	
+			  <optgroup>
+			  	<optgroup label="Khulna Division">
+			  	<option value="">Dhaka</option>
+			  	<option value="">Rajshahi</option>
+			  	<option value="">Barishal</option>
+			  	<option value="">Shylet</option>
+			  </optgroup> 
+			</td>
+			</select>
+		</tr>
+		<tr>
+			<td>Image</td>
+			<td><input type="file" name="image" id="image" accept="image/*"></td>
+		</tr>
+		<tr>
+			<td>Date of Birth</td>
+			<td><input type="Date" name="Date_of_birth" id="Dateofbirth" name=""></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td> <input type="checkbox" name="agree" id="agree" value="">I agree with all of the condition of the system</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td> <input type="submit"  name="btn" id="btn" value="Save info"></td>
+		</tr>
+	</table>
+	<datalist id="name">
+		<option value="Rahim khan"/>
+		<option value="Karim khan"></option>
+		<option value="kazi jaffar"/>
+		
+	</datalist>
+
+</body>
+</html>
