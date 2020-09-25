@@ -1,0 +1,26 @@
+.div-one{
+	height: 200px;
+	width: 25%;
+	background-color: red;
+	float: left;
+
+}
+
+.div-two{
+	height: 200px;
+	width: 75%;
+	float: left;
+	background-color: green;
+}
+.div-three{
+	height: 100px;
+	width: 100%;
+	float: left;
+	background-color: yellow;
+}
+.div-four{
+	height: 300px;
+	width: 100%;
+	float: left;
+	background-color: gray;
+}

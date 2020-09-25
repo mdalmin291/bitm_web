@@ -1,0 +1,21 @@
+.div-one{
+	height: 200px;
+	width:  200px;
+	float: left;
+	<!--text-align: center;-->
+	text-align: center;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	border: 50px inset black;
+	box-sizing: border-box;
+	color: white;
+	background-color: red;
+}
+.div-two{
+	height: 200px;
+	width: 200px;
+	float: left;
+	background-color: yellow;
+}
