@@ -1,0 +1,78 @@
+
+@keyframes demo{
+	0% {background-color: white; width:  }
+	/*25% { background-color: red; }*/
+	50% {background-color:green; }
+	0% {background-color: yellow;  }
+	25% { background-color: pink; }
+}
+
+
+
+.div-one{
+	height: 400px;
+	width: 300px;
+	background-color: red;
+	margin: 50px;
+	animation-name: demo;
+	animation-duration: .5s;
+	animation-iteration-count: infinite;
+
+	/*margin: 150px 100px 0px 150px;*/
+	float: left;
+	/*background: linear-gradient(to left, green, blue, yellow, red, pink);*/
+	/*transform: rotate(0deg) scale(1)*/
+
+	/*transform: skew(-30deg);
+    transition: 3s;*/
+
+
+}
+/*.div-two{
+	height: 200px;
+	width: 20px;
+	background-color: green;
+	margin: 150px 10px 0px 0px;
+	float: left;
+	transform: skew(30deg);
+	transition: 3s;
+}
+.div-three{
+	height: 20px;
+	width: 140px;
+	background-color: red;
+	margin-top: 250px;
+	margin-left: -150px;
+	float: left;
+
+}
+.div-one:hover{
+	/*transform: rotate(360deg) scale(1.5)*/
+	
+}*/
+/*.div-four{
+	height: 200px;
+	width: 100px;
+	border: 4px solid yellow;
+	border-radius: 100px 0px 0px 100px;
+	float: left;
+	margin-left: 350px;
+	margin-top: 200px;
+}
+.div-five{
+	height: 200px;
+	width: 100px;
+	border: 4px solid yellow;
+	border-right: none;
+	border-radius: 100px 0px 0px 100px;
+	float: left;
+	margin-left: 300px;
+	margin-top: 200px;
+}
+.div-six{
+	height: 100px;
+	width: 30px;
+	background-color: green;
+	border-left: 30px;
+	border-top: 100px;
+}*/
