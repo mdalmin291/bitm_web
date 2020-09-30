@@ -1,0 +1,31 @@
+
+
+$bg-color: pink;
+
+
+h2{
+	background-color: red;
+}
+.div-one{
+	height: 200px;
+	width: 250px;
+	background-color: $bg-color;
+	float: left;
+	margin-right: 10px;
+}
+
+.div-two{
+	height: 200px;
+	width: 400px;
+	background-color: $bg-color;
+	float: left;
+	margin-right: 10px;
+}
+
+.div-three{
+	height: 200px;
+	width: 500px;
+	background-color: $bg-color;
+	float: left;
+	margin-right: 10px;
+}

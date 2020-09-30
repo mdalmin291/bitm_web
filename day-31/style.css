@@ -1,0 +1,10 @@
+.client-section{
+    padding: 100px;
+    background-image: url("../day-31/images/office.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.br-0{
+    border-radius: 0px;
+}

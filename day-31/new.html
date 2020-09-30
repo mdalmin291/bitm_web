@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <div id="app">
+
+
+        <input type="text" v-model="valuation">
+
+        <h1>{{valuation}}</h1>
+        <h1>{{ msg }}</h1>
+
+
+
+
+        <button type="button" @click="test">Click me</button>
+
+        <table>
+            <tr>
+                <th>First Name</th>
+                <td><input type="text" v-model="firstName"></td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td><input type="text" v-model="lastName"></td>
+            </tr>
+
+            <tr>
+                <th>Full Name</th>
+                <td><input type="text" v-model="fullName"></td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td><input type="button" @click="makeFullName" value="fullname"></td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+<script src="bootstrap/js/vue.js"></script>
+
+<script>
+        var vm = new Vue({
+
+            el : '#app',
+              data : {
+                   msg        : "Hello world",
+                   firstName  : '',
+                   lastName   : '',
+                   fullName   : '',
+                   valuation  : ''
+            },
+
+              methods : {
+                test: function () {
+                    var x = 10;
+                    var y = 20;
+                    var z = x+y;
+
+                    alert(z);
+                },
+
+                  makeFullName: function () {
+                      this.fullName = this.firstName+ ' ' +this.lastName;
+                  }
+            }
+        })
+
+
+
+</script>
+
+
+</body>
+</html>
